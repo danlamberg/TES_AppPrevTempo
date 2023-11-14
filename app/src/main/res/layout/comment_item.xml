@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textViewCommentData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textColor="#777"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewTemperaturaMaxima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temp. Máxima"
+        android:textColor="#777"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewTemperaturaMimima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temp.Mímima"
+        android:textColor="#777"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textViewUmidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umidade"
+        android:textColor="#777"
+        android:textSize="20dp" />
+</LinearLayout>
