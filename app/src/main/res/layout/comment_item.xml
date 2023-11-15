@@ -3,38 +3,45 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="15dp">
+    android:padding="15dp"
+    android:background="#F5F5F5">
 
     <TextView
         android:id="@+id/textViewCommentData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Data"
-        android:textColor="#777"
-        android:textSize="20dp" />
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
 
     <TextView
         android:id="@+id/textViewTemperaturaMaxima"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Temp. Máxima"
-        android:textColor="#777"
-        android:textSize="20dp" />
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
 
     <TextView
         android:id="@+id/textViewTemperaturaMimima"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Temp.Mímima"
-        android:textColor="#777"
-        android:textSize="20dp" />
-
+        android:text="Temp. Mínima"
+        android:textColor="#0000FF"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
 
     <TextView
         android:id="@+id/textViewUmidade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Umidade"
-        android:textColor="#777"
-        android:textSize="20dp" />
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:gravity="center" />
 </LinearLayout>
