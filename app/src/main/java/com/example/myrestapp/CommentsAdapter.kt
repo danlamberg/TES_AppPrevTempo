@@ -23,9 +23,9 @@ class CommentsAdapter(private val registrosClimaticos: List<Previsao>) : Recycle
 
     override fun onBindViewHolder(holder: CommentsAdapter.CommentViewHolder, position: Int) {
         holder.textViewCommentData.text = "Data: "+ registrosClimaticos[position].data
-        holder.textViewTemperaturaMaxima.text = registrosClimaticos[position].temperaturaMaxima.toString()
-        holder.textViewTemperaturaMimima.text = registrosClimaticos[position].temperaturaMinima.toString()
-        holder.textViewUmidade.text = registrosClimaticos[position].umidade.toString()
+        holder.textViewTemperaturaMaxima.text = "Temperatura Máxima: " + registrosClimaticos[position].temperaturaMaxima.toString() + "°C"
+        holder.textViewTemperaturaMimima.text = "Temperatura Mínima: " + registrosClimaticos[position].temperaturaMinima.toString() + "°C"
+        holder.textViewUmidade.text = "Umidade: " + registrosClimaticos[position].umidade.toString() + "%"
     }
 
     override fun getItemCount(): Int {
